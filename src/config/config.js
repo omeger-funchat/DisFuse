@@ -8,15 +8,15 @@ export const hostUrl = isLocal
   ? "http://localhost:30"
   : "https://host.disfuse.xyz";
 export const authUrl = isLocal
-  ? "https://discord.com/oauth2/authorize?client_id=1234163623081934889&response_type=token&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fprojects&scope=identify"
-  : "https://discord.com/oauth2/authorize?client_id=1234163623081934889&response_type=token&redirect_uri=https%3A%2F%2Fdisfuse.xyz%2Fprojects&scope=identify";
+  ? "https://discord.com/oauth2/authorize?client_id=1555681120647905400&response_type=token&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fprojects&scope=identify"
+  : "https://discord.com/oauth2/authorize?client_id=1555681120647905400&response_type=token&redirect_uri=https%3A%2F%2Fomeger-funchat.github.io%2FDisFuse%2Fprojects&scope=identify";
 
-export const discordClientId = "1234163623081934889";
+export const discordClientId = "1555681120647905400";
 
 /* ---- Websites -------------------------------------------------------
    Websites are BUILT here and PUBLISHED somewhere else: DisFuse-Sites,
    a separate application deployed to sites.disfuse.xyz whose only job is
-   rendering them. This app therefore never renders a published website —
+   rendering them. This app therefore never renders a published website â
    it only ever links to one.
 
    A website's public address is its custom URL if the owner chose one,
