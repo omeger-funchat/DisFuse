@@ -8,7 +8,7 @@ import { HelmetProvider } from "react-helmet-async";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <BrowserRouter
+  <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/+$/, "") || undefined}
     future={{
       v7_startTransition: true,
       v7_relativeSplatPath: true,
