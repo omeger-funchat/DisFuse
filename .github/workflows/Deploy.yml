@@ -24,6 +24,7 @@ jobs:
           cache: pnpm
       - run: pnpm install --no-frozen-lockfile
       - run: pnpm run build
+      - run: cp build/index.html build/404.html && touch build/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./build
