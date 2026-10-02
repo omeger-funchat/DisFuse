@@ -3,7 +3,7 @@ const isLocal = window.location.hostname === "localhost";
 export const discordUrl = "https://discord.com/api/v6";
 export const apiUrl = isLocal
   ? "http://localhost:80"
-  : "https://api.disfuse.xyz";
+  : "https://divine-thunder-23fd.discord1655.workers.dev";
 export const hostUrl = isLocal
   ? "http://localhost:30"
   : "https://host.disfuse.xyz";
@@ -16,7 +16,7 @@ export const discordClientId = "1555681120647905400";
 /* ---- Websites -------------------------------------------------------
    Websites are BUILT here and PUBLISHED somewhere else: DisFuse-Sites,
    a separate application deployed to sites.disfuse.xyz whose only job is
-   rendering them. This app therefore never renders a published website â
+   rendering them. This app therefore never renders a published website Ã¢ÂÂ
    it only ever links to one.
 
    A website's public address is its custom URL if the owner chose one,
